@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<jsp:root xmlns:jsp="http://java.sun.com/JSP/Page" version="2.1"
+          xmlns:f="http://java.sun.com/jsf/core"
+          xmlns:h="http://java.sun.com/jsf/html"
+          xmlns:af="http://xmlns.oracle.com/adf/faces/rich">
+  <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+  <f:view>
+    <af:document id="d1">
+      <af:form id="f1">
+        <af:panelLabelAndMessage label="Label 1" id="plam1">
+          <af:outputText value="#{ManagedBean.ipAddress}" id="ip"/>
+        </af:panelLabelAndMessage>
+        <af:panelLabelAndMessage label="Label 2" id="plam2">
+          <af:outputText id="name"
+                         value="#{ManagedBean.hostNamee}"/>
+        </af:panelLabelAndMessage>
+        <af:panelLabelAndMessage label="Label 3" id="plam3">
+          <af:outputText value="outputText1" id="outputText2"/>
+        </af:panelLabelAndMessage>
+      </af:form>
+    </af:document>
+  </f:view>
+</jsp:root>

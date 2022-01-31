@@ -10,12 +10,8 @@
         <af:panelLabelAndMessage label="Label 1" id="plam1">
           <af:outputText value="#{ManagedBean.ipAddress}" id="ip"/>
         </af:panelLabelAndMessage>
-        <af:panelLabelAndMessage label="Label 2" id="plam2">
-          <af:outputText id="name"
-                         value="#{ManagedBean.hostNamee}"/>
-        </af:panelLabelAndMessage>
         <af:panelLabelAndMessage label="Label 3" id="plam3">
-          <af:outputText value="outputText1" id="outputText2"/>
+          <af:outputText value="#{ManagedBean.serverName}" id="outputText2"/>
         </af:panelLabelAndMessage>
       </af:form>
     </af:document>
